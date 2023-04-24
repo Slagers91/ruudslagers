@@ -1,3 +1,4 @@
+import CustomCursor from "./CustomCursor/CustomCursor";
 import Navbar from "./Navbar";
 import Billing from "./Billing";
 import CardDeal from "./CardDeal";
@@ -10,6 +11,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 
 export {
+  CustomCursor,
   Navbar,
   Billing,
   CardDeal,

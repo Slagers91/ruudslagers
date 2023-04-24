@@ -1,8 +1,22 @@
 import styles from "../style";
 import { arrowUp } from "../assets";
+import { motion } from "framer-motion";
 
 const GetStarted = () => (
-  <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
+  <motion.div
+  className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
+      animate={{
+        scale: [1, 1, 1.1, 1, 1],
+        rotate: [0, 0, 0, 0, 0],
+        borderRadius: ["50%", "50%", "50%", "50%", "50%"]
+      }}
+      transition={{
+        duration: 2,
+        ease: "easeInOut",
+        times: [0, 0.2, 0.5, 0.8, 1],
+        repeat: Infinity,
+        repeatDelay: 1
+      }}>
     <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
       <div className={`${styles.flexStart} flex-row`}>
         <p className="font-poppins font-medium text-[18px] leading-[23px] mr-2">
@@ -18,7 +32,7 @@ const GetStarted = () => (
           </span>
         </p>
     </div>
-  </div>
+    </motion.div>
 )
 
 export default GetStarted
