@@ -5,7 +5,7 @@ function Contact() {
     <div>
       <div className="container">
         <h1 className={`${styles.flexCenter} ${styles.heading2} text-white`}>
-          Kom in contact test
+          {/* Stuur me een berichtje! */}
         </h1>
       </div>
     </div>
