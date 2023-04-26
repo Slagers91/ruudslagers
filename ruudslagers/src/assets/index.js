@@ -23,8 +23,16 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import herman from "./herman.png";
+import fidh from "./fidh.png";
+import ruud01 from "./ruudslagers01.png";
+import CV_RuudSlagers_2023 from "./CV_RuudSlagers_2023.pdf";
 
 export {
+  CV_RuudSlagers_2023,
+  ruud01,
+  herman,
+  fidh,
   airbnb,
   bill,
   binance,

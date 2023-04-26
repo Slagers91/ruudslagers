@@ -1,5 +1,20 @@
 import { useEffect } from "react";
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -24,23 +39,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "HTML, CSS, TailwindCSS",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Ik ben bedreven in HTML en CSS en heb uitgebreide ervaring met TailwindCSS. Hiermee kan ik gestructureerd en efficiënt werken om visueel aantrekkelijke websites te creëren. Ik zorg ervoor dat elke pagina er professioneel uitziet en perfect werkt.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "PHP, WordPress, SQL",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Ik ben zeer bedreven in PHP, SQL en WordPress, waardoor ik complexe projecten kan aanpakken en efficiënt werkende websites kan ontwikkelen. Met mijn expertise zorg ik ervoor dat elke website gemakkelijk te beheren is en dat deze goed presteert.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Javascript, React",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Ik heb ervaring met JavaScript en ben bezig met het verder ontwikkelen van mijn vaardigheden. Ik heb ook interesse in het leren van React en kijk er naar uit om deze technologie te verkennen en te integreren in mijn werk.",
   },
 ];
 
