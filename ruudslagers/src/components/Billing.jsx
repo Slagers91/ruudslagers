@@ -24,6 +24,20 @@ const Billing = () => (
         gezorgd dat de webshop perfect past bij de stijl van het merk en een
         naadloze winkelervaring biedt aan de klanten.
       </p>
+      <button
+        type="button"
+        onClick={(e) => {
+          e.preventDefault();
+          window.open(
+            "https://fromherman.com",
+            "_blank",
+            "noopener noreferrer"
+          );
+        }}
+        className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] mt-4 text-primary outline-none rounded-[10px] ${styles}`}
+      >
+        Bekijk het resultaat
+      </button>
 
       {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img

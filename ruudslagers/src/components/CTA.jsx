@@ -3,6 +3,7 @@ import Button from "./Button";
 
 const CTA = () => (
   <section
+    id="cta"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col">
@@ -16,7 +17,17 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+      <button
+        type="button"
+        onClick={(e) => {
+          e.preventDefault();
+          const subject = encodeURIComponent("Ik kom graag in contact Ruud!");
+          window.location.href = `mailto:ruudslagers@gmail.com?subject=${subject}`;
+        }}
+        className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] mt-4 text-primary outline-none rounded-[10px] ${styles}`}
+      >
+        Stuur een berichtje
+      </button>
     </div>
   </section>
 );

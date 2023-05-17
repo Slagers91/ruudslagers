@@ -18,7 +18,20 @@ const CardDeal = () => (
         Javascript, Bootstrap en WordPress.
       </p>
 
-      <Button styles="mt-10" />
+      <button
+        type="button"
+        onClick={(e) => {
+          e.preventDefault();
+          window.open(
+            "https://functiesindehoreca.nl",
+            "_blank",
+            "noopener noreferrer"
+          );
+        }}
+        className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] mt-4 text-primary outline-none rounded-[10px] ${styles}`}
+      >
+        Bekijk het resultaat
+      </button>
     </div>
 
     <div className={layout.sectionImg}>

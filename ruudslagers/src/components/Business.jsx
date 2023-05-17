@@ -40,7 +40,17 @@ const Business = () => (
         de nieuwste ontwikkelingen in de branche. Benieuwd naar mijn verhaal?
         Klik dan hieronder en leer mij beter kennen!
       </p>
-      <Button styles="mt-10" />
+      <button
+        type="button"
+        onClick={(e) => {
+          e.preventDefault();
+          const subject = encodeURIComponent("Ik kom graag in contact Ruud!");
+          window.location.href = `mailto:ruudslagers@gmail.com?subject=${subject}`;
+        }}
+        className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] mt-4 text-primary outline-none rounded-[10px] ${styles}`}
+      >
+        Kom In Contact
+      </button>
     </div>
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (

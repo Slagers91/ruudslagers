@@ -19,18 +19,18 @@ import {
 export const navLinks = [
   {
     id: "home",
-    title: "About Me",
+    title: "Over Mij",
   },
   {
     id: "features",
-    title: "Skillset",
+    title: "Vaardigheden",
   },
   {
     id: "product",
-    title: "Showcase",
+    title: "Projecten",
   },
   {
-    id: "clients",
+    id: "cta",
     title: "Contact",
   },
 ];
@@ -174,12 +174,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/ruudslagers/",
   },
   {
     id: "social-media-2",
     icon: linkedin,
-    link: "https://www.facebook.com/",
+    link: "https://nl.linkedin.com/in/ruudslagers",
   },
 ];
 
